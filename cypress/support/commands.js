@@ -24,8 +24,9 @@ Cypress.Commands.add('createAccount', (user) =>{
     cy.log(user.first);
     cy.get('.desktop-guest-links').click();
     cy.get('#registerTab').click();
+    cy.get('.UserPasswordformError').should('not.exist');
 
-    //verify errors
+    //verify name errors
     cy.get('#UserFirstName').click();
     cy.get('#UserLastName').click();
     cy.get('#UserEmail').click();
@@ -33,29 +34,57 @@ Cypress.Commands.add('createAccount', (user) =>{
     cy.get('.UserFirstNameformError').should('be.visible');
     cy.get('.UserLastNameformError').should('be.visible');
 
+    //Fill out name correctly
     cy.get('#UserFirstName').type(user.first);
     cy.get('#UserLastName').type(user.last);
 
+    //Get email error
     cy.get('#UserEmail').click();
     cy.get('#UserPassword').click();
-
     cy.get('.UserEmailformError').should('be.visible');
     cy.get('#UserEmail').type(user.email);
     cy.get('#enrollSubmit').click();
 
+    //Get password error
     cy.get('.UserPasswordformError').should('be.visible');
     cy.get('.confirmpasswordformError').should('be.visible');
+    cy.get('#UserPassword').type('123');
+    cy.get('#confirmpassword').type('123');
+    // cy.get('.confirmpasswordformError').should('be.visible');
+    // cy.get('#UserPassword').clear();
+    cy.get('#UserPassword').type(user.password);
+
+    cy.get('#confirmpassword').type('abc');
+    cy.get('.confirmpasswordformError').should('be.visible');
+    cy.get('#UserPassword').clear();
+    cy.get('#UserPassword').type('123');
+    cy.get('.UserPasswordformError').should('be.visible');
+    cy.get('#UserPassword').clear();
+    cy.get('#UserPassword').type(user.password);
+    cy.get('.UserPasswordformError').should('not.exist');
+
+    cy.get('#UserEmail').clear();
+    cy.get('.UserPasswordformError').should('not.exist');
+    cy.get('#UserEmail').type('janedoe');
+
+    cy.get('#enrollSubmit').click();
+    cy.get('.UserEmailformError').should('be.visible');
+    cy.get('#UserEmail').clear();
+    cy.get('#UserEmail').type(user.email);
+    cy.get('#enrollSubmit').click();
 
 
     //Fill Out Information
-    // cy.get('#UserFirstName').type(user.first);
-    // cy.get('#UserLastName').type(user.last);
-    // cy.get('#UserEmail').type(user.email);
+    cy.get('#UserPassword').clear();
     cy.get('#UserPassword').type(user.password);
+    cy.get('#UserPassword').clear();
     cy.get('#confirmpassword').type(user.password);
     cy.get('#enrollSubmit').click();
 
 });
+
+
+
 Cypress.Commands.add('navigateToRegisterPage', (user)=> {
     cy.visit('https://stagingbeta.youniqueproducts.com/register')
 });
