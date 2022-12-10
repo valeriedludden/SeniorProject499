@@ -25,11 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cypress/e2e/SBpractice.cy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-367">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="-895">
+              <caret line="68" column="9" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="68" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -46,20 +43,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cypress/support/commands.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="53" column="39" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="53" selection-end-column="39" />
+            <state relative-caret-position="236">
+              <caret line="351" column="38" selection-start-line="351" selection-start-column="38" selection-end-line="351" selection-end-column="38" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cypress/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -90,14 +78,14 @@
         <option value="$PROJECT_DIR$/cypress/e2e/younique/SBpractice.js" />
         <option value="$PROJECT_DIR$/cypress.config.js" />
         <option value="$PROJECT_DIR$/cypress/.gitignore" />
-        <option value="$PROJECT_DIR$/cypress/e2e/SBpractice.cy.js" />
         <option value="$PROJECT_DIR$/cypress/support/commands.js" />
+        <option value="$PROJECT_DIR$/cypress/e2e/SBpractice.cy.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-22" />
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1628" />
+    <option name="y" value="322" />
     <option name="width" value="1440" />
     <option name="height" value="783" />
   </component>
@@ -162,7 +150,12 @@
       <workItem from="1669475019660" duration="4620000" />
       <workItem from="1669651809957" duration="13379000" />
       <workItem from="1670012128961" duration="1197000" />
-      <workItem from="1670015482092" duration="27538000" />
+      <workItem from="1670015482092" duration="28428000" />
+      <workItem from="1670265368189" duration="16479000" />
+      <workItem from="1670428671977" duration="13386000" />
+      <workItem from="1670518737054" duration="2454000" />
+      <workItem from="1670557380709" duration="2340000" />
+      <workItem from="1670612823255" duration="2988000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1670112217936</created>
@@ -175,19 +168,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64610000" />
+    <option name="totallyTimeSpent" value="103147000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-22" y="25" width="1440" height="783" extended-state="0" />
+    <frame x="1932" y="224" width="1440" height="783" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28183118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Project Explorer" order="3" />
       <window_info id="Job Explorer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -202,6 +194,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -226,16 +219,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cypress/e2e/2-advanced-examples/aliasing.cy.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cypress/e2e/1-getting-started/todo.cy.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cypress/e2e/2-advanced-examples/actions.cy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="119" column="59" selection-start-line="119" selection-start-column="52" selection-end-line="119" selection-end-column="59" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cypress/support/e2e.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -264,24 +247,31 @@
     <entry file="file://$PROJECT_DIR$/cypress/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cypress/e2e/1-getting-started/todo.cy.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cypress/e2e/2-advanced-examples/actions.cy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="119" column="59" selection-start-line="119" selection-start-column="52" selection-end-line="119" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cypress/e2e/SBpractice.cy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-367">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="-895">
+          <caret line="68" column="9" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="68" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cypress/support/commands.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="53" column="39" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="53" selection-end-column="39" />
+        <state relative-caret-position="236">
+          <caret line="351" column="38" selection-start-line="351" selection-start-column="38" selection-end-line="351" selection-end-column="38" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
